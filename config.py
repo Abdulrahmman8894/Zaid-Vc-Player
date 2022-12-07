@@ -48,23 +48,23 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5443938270").split()))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
-ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
+ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/3f3dc7b3ac92a0fec3402.jpg")
 
-START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
+START_PIC = getenv("START_PIC", "https://telegra.ph/file/0bbed3746b379ca414982.jpg")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Abdulrahmman8894/Zaid-Vc-Player")
 
-IMG_1 = getenv("IMG_1", "https://telegra.ph/file/c540aac0249486854787b.png")
+IMG_1 = getenv("IMG_1", "https://telegra.ph/file/cdd58e46c0dad030d5875.jpg")
 
-IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6f1cfec700087f6fcb391.png")
+IMG_2 = getenv("IMG_2", "https://telegra.ph/file/22f3c2b3e9757e9c0e1a3.jpg")
 
-IMG_3 = getenv("IMG_3", "https://telegra.ph/file/c3547532105a0cb67229d.png")
+IMG_3 = getenv("IMG_3", "https://telegra.ph/file/22f3c2b3e9757e9c0e1a3.jpg")
 
-IMG_4 = getenv("IMG_4", "https://telegra.ph/file/be5f551acb116292d15ec.png")
+IMG_4 = getenv("IMG_4", "https://telegra.ph/file/22f3c2b3e9757e9c0e1a3.jpg")
 
-IMG_5 = getenv("IMG_5", "https://telegra.ph/file/c3401a572375b569138c3.png")
+IMG_5 = getenv("IMG_5", "https://telegra.ph/file/22f3c2b3e9757e9c0e1a3.jpg")
 
-IMG_6 = getenv("IMG_6", "https://telegra.ph/file/c3401a572375b569138c3.png")
+IMG_6 = getenv("IMG_6", "https://telegra.ph/file/22f3c2b3e9757e9c0e1a3.jpg")
 
