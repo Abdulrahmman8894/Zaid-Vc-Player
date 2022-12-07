@@ -36,15 +36,15 @@ OWNER_ID = getenv("OWNER_ID", "5443938270")
 
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MR_X")
 
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "test15tt")
 
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "test15t")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5443938270").split()))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
@@ -54,7 +54,7 @@ START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.p
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/c540aac0249486854787b.png")
 
